@@ -1,0 +1,28 @@
+{
+  "ProjectName": "AFATEST",
+  "ProjectGuid": "cfb53bf3-9e89-4d88-b1ae-807c2f7d402a",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.AFATEST",
+  "DisplayName": "AFATEST",
+  "Author": "",
+  "Description": "AFATEST",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "2.5.0",
+  "Framework": "NativeScript"
+}
