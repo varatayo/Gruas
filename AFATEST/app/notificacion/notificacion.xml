@@ -1,0 +1,91 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd">
+  <Page.actionBar>
+    <ActionBar title="Notificaciones" icon="" class="action-bar">
+    </ActionBar>
+  </Page.actionBar>
+
+  <TabView style="font-family: FontAwesome;color: black;" selectedColor="green">
+    <TabView.items>
+      <TabViewItem ios:title="Notificar" android:title="Notificar" backgroundImage="~/images/notificacion/reloj.png">
+        <TabViewItem.view>
+          <ScrollView>
+
+            <StackLayout>
+              <Label text="Obra / Grua / Cliente" backgroundColor="white" />
+              <Switch checked="true" />
+              <Label text="Dirección" backgroundColor="white"  />
+              <label text="14 Marzo 2017" horizontalAlignment="center"/>
+              <label text="Mañana   08:00  14:30" />
+              <label text="Tarde    14:30  18:00" />
+              <Label text="" backgroundColor="white" height="50" />
+              <label text="rieles alineados" />
+              <label text="via libre" />
+              <label text="mandos sin carga" />
+              <label text="" height="100"/>
+              <TextField hint="Firma Cliente"   textWrap="true" width="300" backgroundColor="silver" height="150"/>
+            </StackLayout>
+
+          </ScrollView>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem ios:title="Carpeta" android:title="Carpeta">
+        <TabViewItem.view>
+
+          <StackLayout >
+            <Label text="Obra / Grua / Cliente" backgroundColor="white" />
+            <Switch checked="true" />
+            <Label text="Dirección" backgroundColor="white"/>
+            <Label text="" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+            <Label text="1 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+            <Label text="2 de Abril 2017 Juan Perez" backgroundColor="green"/>
+            <Label text="3 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+            <Label text="4 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+            <Label text="5 de Abril 2017 Juan Perez" backgroundColor="green"/>
+            <Label text="6 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+            <Label text="7 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+            <Label text="8 de Abril 2017 Juan Perez" backgroundColor="green"/>
+            <Label text="9 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+            <Label text="10 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+            <Label text="11 de Abril 2017 Juan Perez" backgroundColor="green"/>
+            <Label text="12 de Abril 2017 Juan Perez" backgroundColor="seagreen"/>
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem ios:title="Update" android:title="Update">
+        <TabViewItem.view>
+          <StackLayout>
+            <Label text="Obra / Grua / Cliente" backgroundColor="white"  />
+            <Switch checked="true" />
+            <Label text="Dirección" backgroundColor="white"/>
+            <Label text="" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+            <Image src="~/images/notificacion/nota.jpg" stretch="none" height="150" marginLeft="10%"/>
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <!--
+      <TabViewItem ios:title="definir" android:title="definir">
+      <TabViewItem.view>
+      <StackLayout>
+      <Label text="OPERADORES AUSENTES" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+      <Label text="73 JUAN PEREZ LAS CONDES" backgroundColor="seagreen"/>
+      <Label text="23 PEDRO GONZALEZ RECOLETA" backgroundColor="green"/>
+      <Label text="83 PEDRO TAPIA  COLINA" backgroundColor="seagreen"/>
+      </StackLayout>
+      </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem ios:title="Stop" android:title="Stop">
+      <TabViewItem.view>
+      <StackLayout>
+      <Label text="OPERADORES AUSENTES" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+      <Label text="73 JUAN PEREZ LAS CONDES" backgroundColor="seagreen"/>
+      <Label text="23 PEDRO GONZALEZ RECOLETA" backgroundColor="green"/>
+      <Label text="83 PEDRO TAPIA  COLINA" backgroundColor="seagreen"/>
+      </StackLayout>
+      </TabViewItem.view>
+      </TabViewItem>
+      -->
+
+    </TabView.items>
+
+  </TabView>
+</Page>

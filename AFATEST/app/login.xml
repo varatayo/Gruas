@@ -1,0 +1,14 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <Page.actionBar>
+    <ActionBar title="Operadores" icon="" class="action-bar">
+    </ActionBar>
+  </Page.actionBar>
+
+  <StackLayout  horizontalAlignment="center" >
+    <Image src="~/images/gruasyequipos.png" stretch="none" height="150" marginLeft="10%"/>
+    <TextField hint="Orden"  textWrap="true" width="300" backgroundColor="white" />
+    <TextField hint="Rut"   textWrap="true" width="300" backgroundColor="white" />
+    <TextField hint="Clave"   textWrap="true" width="300" backgroundColor="white" />
+    <Button text="Ingresar" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
+  </StackLayout>
+</Page>

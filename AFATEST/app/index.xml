@@ -1,0 +1,28 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd">
+
+  <AbsoluteLayout  style.backgroundColor="white">
+    <Image src="~/images/gruasyequipos.png" stretch="none" marginLeft="30%" top="10" />
+    
+
+    <StackLayout left="50" top="210" width="90" height="90" horizontalAlignment="center" colSpan="3" backgroundColor="white">
+      <Button text="" tap="onlogistica" backgroundImage="~/images/logistica.png" backgroundSize="cover" />
+      <Label text="Logistica"/>
+    </StackLayout>
+
+    <StackLayout left="230" top="210" width="90" height="90" horizontalAlignment="center" backgroundColor="white">
+      <Button text="" tap="onOperadores" backgroundImage="~/images/operadores.png" backgroundSize="90"/>
+      <Label text="Operadores"/>
+    </StackLayout>
+
+    <StackLayout left="230" top="310" width="90" height="90" horizontalAlignment="right">
+      <Button text="" tap="onMontaje" backgroundImage="~/images/montaje.png" backgroundSize="90 90"/>
+      <Label text="Montaje"/>
+    </StackLayout>
+
+    <StackLayout left="50" top="310" width="90" height="90"  horizontalAlignment="right">
+      <Button text="" tap="onServicios" backgroundImage="~/images/servicios.jpg" backgroundSize="contain"/>
+      <Label text="Servicios"/>
+    </StackLayout>
+
+  </AbsoluteLayout>
+</Page>

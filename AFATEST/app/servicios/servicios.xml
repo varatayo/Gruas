@@ -1,0 +1,56 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd">
+  <Page.actionBar>
+    <ActionBar title="Servicios" icon="" class="action-bar">
+    </ActionBar>
+  </Page.actionBar>
+
+  <TabView style="font-family: FontAwesome;color: black;" selectedColor="green">
+    <TabView.items>
+      <TabViewItem ios:title="GPS;" android:title="GPS">
+        <TabViewItem.view>
+          <ScrollView>
+
+            <StackLayout tap="onTap">
+              <Label text="UBICACION OPERADORES GPS" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+              <Label text="73 JUAN PEREZ LAS CONDES" backgroundColor="seagreen"/>
+              <Label text="23 PEDRO GONZALEZ RECOLETA" backgroundColor="green"/>
+              <Label text="83 PEDRO TAPIA  COLINA" backgroundColor="seagreen"/>
+            </StackLayout>
+
+          </ScrollView>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem ios:title="SIN ENRO" android:title="SIN ENRO">
+        <TabViewItem.view>
+
+          <StackLayout tap="onTap">
+            <Label text="OBRAS SIN ENROLAMIENTO 7:45" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+            <Label text="METRO" backgroundColor="seagreen"/>
+            <Label text="GUILLERMO MORALES" backgroundColor="green"/>
+            <Label text="ECHEVERRIA IZQUIERDO" backgroundColor="seagreen"/>
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem ios:title="NO INICIADAS" android:title="NO INICIADAS">
+        <TabViewItem.view>
+          <StackLayout tap="onTap">
+            <Label text="OBRAS NO INICIADAS 7:45" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+            <Label text="METRO" backgroundColor="seagreen"/>
+            <Label text="GUILLERMO MORALES" backgroundColor="green"/>
+            <Label text="ECHEVERRIA IZQUIERDO" backgroundColor="seagreen"/>
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem ios:title="AUSENTES" android:title="AUSENTES" >
+        <TabViewItem.view>
+          <StackLayout tap="onTap">
+            <Label text="OPERADORES AUSENTES" backgroundColor="white" height="50"  horizontalAlignment="center"/>
+            <Label text="73 JUAN PEREZ LAS CONDES" backgroundColor="seagreen"/>
+            <Label text="23 PEDRO GONZALEZ RECOLETA" backgroundColor="green"/>
+            <Label text="83 PEDRO TAPIA  COLINA" backgroundColor="seagreen"/>
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+    </TabView.items>
+  </TabView>
+</Page>
